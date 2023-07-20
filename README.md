@@ -3,7 +3,7 @@
 Este repositório contém o código-fonte para o desenvolvimento do serviço de integração com Volk LMS. A seguir estão os passos para instalação e configuração do projeto.
 
 ## Pré-requisitos
-- PHP 7.4 ou superior
+- PHP 8.2 ou superior
 - Composer
 - MySQL ou qualquer outro banco de dados compatível
 
