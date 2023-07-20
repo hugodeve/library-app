@@ -41,14 +41,15 @@ Este repositório contém o código-fonte para o desenvolvimento do serviço de 
     
 5. Executar as migrações do banco de dados:
     
-    php artisan migrate
+        php artisan migrate
 
 6. Executar os seeders para popular o banco de dados com dados de exemplo:
 
-    php artisan db:seed
+        php artisan db:seed
 
 7. Iniciar o servidor de desenvolvimento:
     
-    php artisan serve
-    Agora você poderá acessar o projeto no navegador através da URL http://localhost:8000.
+        php artisan serve
+    
+Agora você poderá acessar o projeto no navegador através da URL http://localhost:8000.
 
