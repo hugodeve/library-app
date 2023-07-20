@@ -4,6 +4,7 @@ Este repositório contém o código-fonte para o desenvolvimento do serviço de 
 
 ## Pré-requisitos
 - PHP 8.2 ou superior
+- Laravel 10
 - Composer
 - MySQL ou qualquer outro banco de dados compatível
 
