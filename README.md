@@ -10,35 +10,29 @@ Este repositório contém o código-fonte para o desenvolvimento do serviço de 
 ## Instalação
 
 1. Clonar o repositório:
+    git clone https://github.com/seu-usuario/library-app.git
 
-```bash
-git clone https://github.com/seu-usuario/library-app.git
-
-Acessar o diretório do projeto:
+2. Acessar o diretório do projeto:
     bash
     Copy code
     cd library-app
 
-2. Instalar as dependências com o Composer:
+3. Instalar as dependências com o Composer:
     bash
     Copy code
     composer install
 
-3. Configuração do ambiente:
+4. Configuração do ambiente:
 
     a. Copiar o arquivo de configuração .env.example para .env:
-
-    bash
     Copy code
     cp .env.example .env
-    b. Gerar uma nova chave de aplicação:
 
-    bash
+    b. Gerar uma nova chave de aplicação:
     Copy code
     php artisan key:generate
-    c. Configurar os detalhes do banco de dados no arquivo .env:
 
-    dotenv
+    c. Configurar os detalhes do banco de dados no arquivo .env:
     Copy code
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -47,15 +41,15 @@ Acessar o diretório do projeto:
     DB_USERNAME=(usuario mysql)
     DB_PASSWORD=(senha mysql)
     
-4. Executar as migrações do banco de dados:
+5. Executar as migrações do banco de dados:
     bash
     Copy code
     php artisan migrate
-5. Executar os seeders para popular o banco de dados com dados de exemplo:
+6. Executar os seeders para popular o banco de dados com dados de exemplo:
     bash
     Copy code
     php artisan db:seed
-6. Iniciar o servidor de desenvolvimento:
+7. Iniciar o servidor de desenvolvimento:
     bash
     Copy code
     php artisan serve
